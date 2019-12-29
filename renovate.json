@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "labels": [
+    "Renovate"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "prConcurrentLimit": 1,
+  "prCreation": "not-pending",
+  "rangeStrategy": "update-lockfile",
+  "schedule": [
+    "before 10am on Saturday"
+  ],
+  "stabilityDays": 14,
+  "timezone": "Europe/London"
+}

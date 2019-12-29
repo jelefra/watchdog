@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+
+# Build files
+lib/
+
+# WebStorm IDE
+.idea/
+
+# Private
+.env
+
+# Jest coverage information
+coverage/
