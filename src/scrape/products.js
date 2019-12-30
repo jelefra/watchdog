@@ -137,7 +137,7 @@ const products = [
   },
   {
     name: "Wedze women's downhill ski boots Evofit 900",
-    targetPrice: 195,
+    targetPrice: 175, // Reduced from 195 on 30/12/19
     variations: [
       {
         url:
@@ -250,7 +250,7 @@ const products = [
   },
   {
     name: "Head men's d-ski boots Head Edge Lyt 100",
-    targetPrice: 215,
+    targetPrice: 195, // Reduced from 215 on 30/12/19
     variations: [
       {
         url:
