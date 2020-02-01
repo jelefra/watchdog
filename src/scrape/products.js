@@ -117,7 +117,7 @@ const products = [
   },
   {
     name: "Wedze women's downhill ski boots wid 500",
-    targetPrice: 125,
+    targetPrice: 105, // Reduced from 130 on 23/01/20
     variations: [
       {
         url:
@@ -137,7 +137,7 @@ const products = [
   },
   {
     name: "Wedze women's downhill ski boots Evofit 900",
-    targetPrice: 175, // Reduced from 195 on 30/12/19
+    targetPrice: 155, // Reduced from 195 on 30/12/19, from £180 on 23/01/20
     variations: [
       {
         url:
