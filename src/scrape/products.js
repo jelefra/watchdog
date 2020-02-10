@@ -137,7 +137,7 @@ const products = [
   },
   {
     name: "Wedze women's downhill ski boots Evofit 900",
-    targetPrice: 155, // Reduced from 195 on 30/12/19, from £180 on 23/01/20
+    targetPrice: 125, // Reduced from 195 on 30/12/19, from £180 on 23/01/20, from £160 on 09/02/20
     variations: [
       {
         url:
@@ -167,7 +167,7 @@ const products = [
   },
   {
     name: "Atomic women's downhill ski boots Atomic Hawx Magna 85",
-    targetPrice: 175,
+    targetPrice: 145, // Reduced from £180 on 09/02/20
     variations: [
       {
         url:
@@ -177,7 +177,7 @@ const products = [
   },
   {
     name: "Head women's downhill ski boots Head Edge Lyt 80",
-    targetPrice: 175,
+    targetPrice: 145, // Reduced from £180 on 09/02/20
     variations: [
       {
         url:
