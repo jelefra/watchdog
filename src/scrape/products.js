@@ -24,7 +24,7 @@ const products = [
   //
   {
     name: "Wedze men's boost 500 downhill skis",
-    targetPrice: 195,
+    targetPrice: 155, // Reduced from 195 on 25/02/20
     variations: [
       {
         url:
@@ -74,7 +74,7 @@ const products = [
   },
   {
     name: "Atomic men's on-piste skis with Atomic Redster Binding X5",
-    targetPrice: 295,
+    targetPrice: 225, // Reduced from 295 on 25/02/20
     variations: [
       {
         url:
@@ -84,7 +84,7 @@ const products = [
   },
   {
     name: "Head men's on-piste ski with Head I-shape Pro WC Binding",
-    targetPrice: 295,
+    targetPrice: 245, // Reduced from 295 on 25/02/20
     variations: [
       {
         url:
@@ -94,7 +94,7 @@ const products = [
   },
   {
     name: "Head men's on-piste skis with HEAD I-SHAPE PRO WC Rebel binding",
-    targetPrice: 295,
+    targetPrice: 245, // Reduced from 295 on 25/02/20
     variations: [
       {
         url:
@@ -117,7 +117,7 @@ const products = [
   },
   {
     name: "Wedze men's downhill ski boots WID 500",
-    targetPrice: 125,
+    targetPrice: 95, // Reduced from 125 on 25/02/20
     variations: [
       {
         url:
@@ -137,7 +137,7 @@ const products = [
   },
   {
     name: "Salomon men's downhill ski boots Salomon Quest Access 80",
-    targetPrice: 145,
+    targetPrice: 115, // Reduced from 145 on 25/02/20
     variations: [
       {
         url:
@@ -157,7 +157,7 @@ const products = [
   },
   {
     name: "Atomic men's downhill ski boots Atomic Hawx Magna 100",
-    targetPrice: 195,
+    targetPrice: 145, // Reduced from 195 on 30/12/19
     variations: [
       {
         url:
@@ -167,7 +167,7 @@ const products = [
   },
   {
     name: "Head men's d-ski boots Head Edge Lyt 100",
-    targetPrice: 195, // Reduced from 215 on 30/12/19
+    targetPrice: 145, // Reduced from 215 on 30/12/19, from 195 on 25/02/20
     variations: [
       {
         url:
