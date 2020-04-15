@@ -12,3 +12,6 @@ lib/
 
 # Jest coverage information
 coverage/
+
+# Misc.
+.DS_Store
