@@ -9,7 +9,7 @@ Puppeteer crawls the products in `products.js` and fetches the prices identified
 A product is defined as a collection of _variations_, this way it's possible to monitor similar items (typically different colours or sizes of a given product) in one go. This reduces the number of notifications sent.
 
 # Successes
-25 February 2020 - Skis
+## 25 February 2020 - Skis
 
 Bought the last pair :)
 
