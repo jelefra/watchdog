@@ -24,7 +24,7 @@ const products = [
   //
   {
     name: "Wedze men's downhill ski boots wid 300",
-    targetPrice: 85,
+    targetPrice: 65, // Reduced from 90 between 26/02/02 and 01/03/20
     variations: [
       {
         url:
@@ -44,7 +44,7 @@ const products = [
   },
   {
     name: "Wedze men's downhill ski boots Evofit 550",
-    targetPrice: 145,
+    targetPrice: 145, // Reduced from 150 between 26/02/02 and 01/03/20
     variations: [
       {
         url:
