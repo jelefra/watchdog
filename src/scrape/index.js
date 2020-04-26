@@ -1,4 +1,5 @@
 import puppeteer from 'puppeteer';
+import url from 'url';
 
 import send, { constructMessage } from '../slack';
 import products from './products';
@@ -24,12 +25,12 @@ export const sortVariations = ({ variations, targetPrice }) => {
   );
 };
 
-const getDomain = url => url.match(/(?:www\.)(.*)(?:\/)/)['1'];
+const getHostname = productUrl => url.parse(productUrl).hostname;
 
 export const getPriceValue = elem => elem.innerText.slice(1);
 
-export async function getPriceElement(page, url) {
-  const domain = getDomain(url);
+export async function getPriceElement(page, productUrl) {
+  const domain = getHostname(productUrl);
   const priceSelector = priceSelectors[domain];
   if (await page.$(priceSelector)) {
     return page.$eval(priceSelector, getPriceValue);
