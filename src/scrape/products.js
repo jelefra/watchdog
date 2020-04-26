@@ -102,6 +102,39 @@ const products = [
       },
     ],
   },
+  //
+  // Furniture
+  //
+  {
+    name: 'Amelie Upholstered Bedstead',
+    targetPrice: 695,
+    variations: [
+      {
+        url:
+          'https://www.dunelm.com/product/amelie-upholstered-bedstead-1000081958?bedsSize=Kingsize+5ft',
+      },
+    ],
+  },
+  {
+    name: 'Amelie 2 Drawer Bedside Table',
+    targetPrice: 175,
+    variations: [
+      {
+        url:
+          'https://www.dunelm.com/product/amelie-2-drawer-bedside-table-1000081955',
+      },
+    ],
+  },
+  {
+    name: 'Amelie Dressing Table Set',
+    targetPrice: 435,
+    variations: [
+      {
+        url:
+          'https://www.dunelm.com/product/amelie-dressing-table-set-1000081960',
+      },
+    ],
+  },
 ];
 
 export default products;
