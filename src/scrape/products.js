@@ -1,7 +1,7 @@
 const products = [
   {
     name: "B'Twin 900 winter cycling socks",
-    targetPrice: 9,
+    targetPrice: 6, // Reduced from 10 on 18/05/2020
     variations: [
       {
         name: 'Black/yellow',
